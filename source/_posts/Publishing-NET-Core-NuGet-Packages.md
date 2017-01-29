@@ -1,10 +1,10 @@
 ---
-title: Publishing .NET Core NuGet Packages (Detailed)
+title: Publishing .NET Core NuGet Packages
 date: 2017-01-28 15:32:36
 tags: csharp dotnet dotnetcore nuget
 ---
 
-##### *NOTE: This post is only getting written because I couldn't find a reliable and up to date guide for creating public NuGet packages for the current state of .NET Core tooling. I'll do my best to either update this or delete it when it becomes irrelevant in order to prevent the confusion that made this a little difficult for me.*
+*If you want a condensed version, head over to the [tl;dr version of this post](/2017/01/29/Publishing-NET-Core-NuGet-Packages-tl-dr/)*
 
 So you've got some code you think would be helpful to your community. Or maybe you just want to save yourself the hassle of managing bits of code that you frequently use in your projects.
 
