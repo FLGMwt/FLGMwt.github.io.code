@@ -241,4 +241,4 @@ dotnet run
 
 Well done! You're a published (NuGet) author!
 
-If you have any questions about these steps, hit me up at [https://twitter.com/ryanastelly](@ryanastelly) and I'll do my best to help out. Cheers!
+If you have any questions about these steps, hit me up at [@ryanastelly](https://twitter.com/ryanastelly) and I'll do my best to help out. Cheers!
