@@ -1,5 +1,5 @@
 ---
-title: Publishing .NET Core NuGet Packages
+title: Publishing .NET Core NuGet Packages (Detailed)
 date: 2017-01-28 15:32:36
 tags: csharp dotnet dotnetcore nuget
 ---
