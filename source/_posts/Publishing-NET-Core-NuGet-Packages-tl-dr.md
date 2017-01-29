@@ -4,7 +4,7 @@ date: 2017-01-29 11:39:31
 tags: csharp dotnet dotnetcore nuget tl;dr
 ---
 
-*If you want a thorough exploration of this topic, head over to the [detailed version of this post](/2017/01/28/Publishing-NET-Core-NuGet-Packages/)*
+*For a thorough exploration of this topic, head over to the [detailed version of this post](/2017/01/29/Publishing-NET-Core-NuGet-Packages/)*
 
 ## Prerequisites
 
@@ -57,4 +57,4 @@ nuget push bin/Release/<YOUR_HANDLE>.MyFancyPackage.0.0.1.nupkg <API_KEY> -Sourc
 
 Done!
 
-*If you want to see your package in action, follow [these steps](/2017/01/28/Publishing-NET-Core-NuGet-Packages/#Testing-Your-New-Package) in the detailed post.*
+*If you want to see your package in action, follow [these steps](/2017/01/29/Publishing-NET-Core-NuGet-Packages/#Testing-Your-New-Package) in the detailed post.*

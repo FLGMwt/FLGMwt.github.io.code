@@ -1,10 +1,10 @@
 ---
 title: Publishing .NET Core NuGet Packages
-date: 2017-01-28 15:32:36
+date: 2017-01-29 15:32:36
 tags: csharp dotnet dotnetcore nuget
 ---
 
-*If you want a condensed version, head over to the [tl;dr version of this post](/2017/01/29/Publishing-NET-Core-NuGet-Packages-tl-dr/)*
+*For a condensed version of this topic, head over to the [tl;dr version of this post](/2017/01/29/Publishing-NET-Core-NuGet-Packages-tl-dr/)*
 
 So you've got some code you think would be helpful to your community. Or maybe you just want to save yourself the hassle of managing bits of code that you frequently use in your projects.
 
