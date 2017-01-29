@@ -68,6 +68,5 @@ theme: clean-blog
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repository: https://github.com/FLGMwt/FLGMwt.github.io
-  branch: master
+  type: git
+  repo: https://github.com/FLGMwt/FLGMwt.github.io
