@@ -34,7 +34,7 @@ If your version is different than the following, try reinstalling the dotnet too
 
 ## Creating a Class Library
 
-You can create NuGet packages out of your existing class libraries, but for this guide, I'll be starting from scratch with a new project, using the `dotnet` cli.
+You can create NuGet packages out of your existing class libraries, but for this guide, I'll be starting from scratch with a new project, using the `dotnet` cli:
 
 ``` PowerShell
 >mkdir FancyPackage
@@ -48,10 +48,31 @@ Don't fret though! This isn't the `csproj` you're used to/annoyed with/crippling
 
 ``` xml
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
   </PropertyGroup>
-
 </Project>
+```
+
+Some things to note:
+
+- 5 lines instead of the 47 lines from a VS 2015 Class Library template
+- No build tools versiosn
+- No build targets paths
+- No build configurations
+- No file includes
+- No external references
+
+The .NET Core tooling team has brought together familiar parts from the `csproj` xml you know and love, melded with the readability and convention-over-configuration tendencies of the popular `project.json`.
+
+How does `Class1.cs` make its way into the compiled project, you ask? Projects using the .NET Core SDK have an implicit **opt-out** strategy for project files. This means that, by default, everything in the project directory is included in the build. This *also* probably means, at least for me, less CI build failures because I added or renamed a file, but forgot to Save All in VS before committing (blasted `csproj` changes!).
+
+Also of note, the [NETStandard.Library](https://www.nuget.org/packages/NETStandard.Library/) NuGet package is implicitly included. This package can roughly be considered the alternative to the `dll`s that make up the .NET Framework SDK install.
+
+## Building the Starter Class Library
+
+Building our newly generated project is as straightforward as running:
+
+``` PowerShell
+>dotnet build
 ```
