@@ -78,7 +78,7 @@ Building our newly generated project is as straightforward as running:
 dotnet build
 ```
 
-This builds our project in the defaut configuration (`Debug`), and you should have a `.dll` in `bin/Debug/netstandard1.4/`.
+This builds our project in the default configuration (`Debug`), and you should have a `.dll` in `bin/Debug/netstandard1.4/`.
 
 ## NuGet Project Properties
 
