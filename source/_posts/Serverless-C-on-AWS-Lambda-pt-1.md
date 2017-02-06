@@ -6,7 +6,7 @@ tags:
 
 *This is a multi-part series on using C#, AWS Lambda, and Serverless Framework to build REST services, ChatBots, Alexa Skills and more*
 
-You might have heard that back in December, [https://aws.amazon.com/blogs/compute/announcing-c-sharp-support-for-aws-lambda/](AWS Lambda added support for C#). Welcome to the club, fellow .NET developer! AWS Lambda is the logical conclusion of the move from Infrastructure-as-a-Service to Platform-as-a-Service to Containers-as-a-Service to what we're going to be dealing with: Functions-as-a-Service (often referred to as Serverless).
+You might have heard that back in December, [AWS Lambda added support for C#](https://aws.amazon.com/blogs/compute/announcing-c-sharp-support-for-aws-lambda). Welcome to the club, fellow .NET developer! AWS Lambda is the logical conclusion of the move from Infrastructure-as-a-Service to Platform-as-a-Service to Containers-as-a-Service to what we're going to be dealing with: Functions-as-a-Service (often referred to as Serverless).
 
 Serverless applications offer a number of benefits such as ease of deployment, effortless scalability, and cost elasticity (you only pay for when your service is used). Because the pros and cons of serverless applications have been discussed at length, I'll leave the analysis to [those much smarter than I](https://martinfowler.com/articles/serverless.html) and stick to a guide.
 
