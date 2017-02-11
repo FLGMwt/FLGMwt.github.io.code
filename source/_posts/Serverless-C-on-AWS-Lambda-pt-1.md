@@ -189,7 +189,7 @@ Neat! We know that `Hello` returned a `Response` object with the property `Messa
 We got the default template running, but that's not a great deal of fun. Try changing the message string in `Handler` to a message of your own:
 
 ```csharp
-return new Response("Thanks for reading the first part of this series!", request);
+return new Response("Go Serverless! Thanks for reading the first part of this series!", request);
 ```
 
 Remember, `serverless` deploys our code from `deploy-package.zip`, but since we changed the source, we need to rebuild the package. Again, run:
@@ -208,7 +208,7 @@ Now try `serverless invoke -f hello` and you should see your custom message:
 
 ```json
 {
-    "Message": "Thanks for reading the first part of this series!",
+    "Message": "Go Serverless! Thanks for reading the first part of this series!",
     "Request": {
         "Key1": null,
         "Key2": null,
