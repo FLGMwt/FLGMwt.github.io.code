@@ -1,5 +1,5 @@
 ---
-title: 'Serverless C# on AWS Lambda (pt. 1)'
+title: 'Serverless C# on AWS Lambda (pt. 1) - Getting Started'
 date: 2017-02-05 15:34:19
 tags:
 ---

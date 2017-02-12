@@ -1,5 +1,5 @@
 ---
-title: 'Serverless C# on AWS Lambda (pt. 2)'
+title: 'Serverless C# on AWS Lambda (pt. 2) - Handling HTTP Events'
 date: 2017-02-11 14:45:26
 tags:
 ---
@@ -53,7 +53,7 @@ functions:
 
 That's it!
 
-# Testing the Event (Take #1)
+# Testing the Event
 
 Now that we've modified our service definition (`serverless.yml`), let's remember what we need to do to deploy it. Note that since we haven't made modifications to the C#, we don't need to build an updated package.
 
